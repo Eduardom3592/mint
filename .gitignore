@@ -1,0 +1,42 @@
+# Binaries
+mint
+mint.exe
+*.exe
+*.test
+*.out
+
+# Build
+dist/
+build/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Dependencies
+vendor/
+
+# Coverage
+coverage.*
+coverage.html
+coverage.out
+
+# Temp
+tmp/
+*.tmp
+
+# Database
+*.db
+*.db-wal
+*.db-shm
+*.sqlite
+
+# Config
+.env

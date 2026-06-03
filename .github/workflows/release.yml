@@ -1,11 +1,13 @@
 name: Release
 
 on:
-  pull_request:
+  workflow_dispatch:
   push:
     branches:
       - main
-
+    paths:
+      - VERSION
+      
 jobs:
   snapshot:
     runs-on: ubuntu-latest

